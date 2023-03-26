@@ -36,8 +36,8 @@ public class Main {
         String answer = scanner.next();
         answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
 
-        if(dictionaryAnimals.containsKey(answer)){
-        System.out.println("La traducción de español de " + answer + " a inglés es " + dictionaryAnimals.get(answer));
+        if (dictionaryAnimals.containsKey(answer)) {
+            System.out.println("La traducción de español de " + answer + " a inglés es " + dictionaryAnimals.get(answer));
         } else {
             System.out.println("La palabra no se encuentra en el diccionario");
         }

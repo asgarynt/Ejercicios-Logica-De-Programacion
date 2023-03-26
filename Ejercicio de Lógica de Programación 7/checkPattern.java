@@ -32,7 +32,7 @@ public class checkPattern {
         return 5;
     }
 
-    public static int checkHours(String hour){
+    public static int checkHours(String hour) {
 
         boolean hourCheck = hour.matches(new Regex().hourPattern);
 
@@ -45,7 +45,7 @@ public class checkPattern {
         return Integer.parseInt(hour);
     }
 
-    public static int checkMinutes(String minutes){
+    public static int checkMinutes(String minutes) {
 
         boolean minutesCheck = minutes.matches(new Regex().minutesPattern);
 

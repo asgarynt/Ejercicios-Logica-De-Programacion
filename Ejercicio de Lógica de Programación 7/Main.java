@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Ingresa la hora en un formato de 24 horas");
         String hour = input.nextLine();
-        int hourCheck =  checkPattern.checkHours(hour);
+        int hourCheck = checkPattern.checkHours(hour);
 
         System.out.println("Ingresa los minutos");
         String minutes = input.nextLine();

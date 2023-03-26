@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class EnglishExercise {
 
-
     public static String writeTranslate(HashMap<String, String> listOfWords) {
 
         // Variables, hashmap y ArrayList que utiliza la función
@@ -32,4 +31,3 @@ public class EnglishExercise {
         return "Obtuviste " + hits + " de 5 respuestas correctas";
     }
 }
-
