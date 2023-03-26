@@ -15,5 +15,7 @@ import java.util.*;
             }
 
             Prime.checkPrime(nums);
+
+            sc.close();
         }
     }

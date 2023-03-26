@@ -22,6 +22,7 @@ public class Main {
 
         System.out.println("Faltan " + result + " minutos para el fin de semana");
 
+        input.close();
     }
 
 }

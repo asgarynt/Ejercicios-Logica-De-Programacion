@@ -41,5 +41,7 @@ public class Main {
         } else {
             System.out.println("La palabra no se encuentra en el diccionario");
         }
+
+        scanner.close();
     }
 }

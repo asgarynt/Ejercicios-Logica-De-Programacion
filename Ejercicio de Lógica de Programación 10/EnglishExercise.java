@@ -28,6 +28,7 @@ public class EnglishExercise {
                 System.out.println("La respuesta correcta es: " + listOfWords.get(quest));
             }
         }
+        scanner.close();
         return "Obtuviste " + hits + " de 5 respuestas correctas";
     }
 }

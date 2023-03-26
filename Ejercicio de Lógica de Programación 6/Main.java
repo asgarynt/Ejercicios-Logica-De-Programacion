@@ -15,5 +15,6 @@ public class Main {
         System.out.println("Ingresa la palabra a revertir");
         String wordOrPhrase = sc.nextLine();
         stringReverse(wordOrPhrase);
+        sc.close();
     }
 }
